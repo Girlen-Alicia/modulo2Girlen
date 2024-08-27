@@ -8,7 +8,6 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    font-family: monospace;
 }
 
 p {
@@ -28,6 +27,21 @@ header {
     border-top-right-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
+}
+
+#text {
+    font-size: 23px;
+    transition: color 0.3s ease;
+}
+
+#description {
+    font-size: 23px;
+    color: rgb(10, 250, 38);
+    transition: color 0.3s ease;
+}
+
+#myImagen1, #myImagen2, #myImagen3{
+    transition: transform 0.5s ease; /* Suaviza la rotación */
 }
 
 #section5 {
@@ -117,4 +131,8 @@ footer{
     background-color: greenyellow;
     text-align: end;
     height: 30px;
+}
+
+#contact{
+    color: #00fff2;
 }
