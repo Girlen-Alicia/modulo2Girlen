@@ -19,6 +19,10 @@ header {
     text-align: center;
 }
 
+.img_carrusel{
+    height: 650px;
+}
+
 #section1 {
     text-align: center;
     background-color: #FF7D29;

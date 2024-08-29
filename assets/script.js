@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const texto = document.getElementById('me');
+    const texto = document.getElementById('sobre-mi');
 
     texto.addEventListener('mouseover', () => {
         texto.style.color = 'yellow'; // Cambia a cualquier color que desees
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const texto = document.getElementById('skills');
+    const texto = document.getElementById('habilidades');
 
     texto.addEventListener('mouseover', () => {
         texto.style.color = 'red'; // Cambia a cualquier color que desees
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const texto = document.getElementById('project');
+    const texto = document.getElementById('proyectos');
 
     texto.addEventListener('mouseover', () => {
         texto.style.color = 'yellow'; // Cambia a cualquier color que desees
